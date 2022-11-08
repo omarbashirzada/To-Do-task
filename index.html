@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/icons8-to-do-64.png">
+    <title>To Do List</title>
+</head>
+
+<body style="user-select: none;">
+    <div class="main-container">
+        <div class="container">
+            <div class="to-do-header"></div>
+            <div class="title">To-Do List</div>
+            <div class="sortIcon">
+                <img src="./image/blackdown.svg" id="sort-button" class="downIcon">
+                <div class="drag"><img src="./image/bin.jpg" class="bin"></div>
+                
+            </div>
+           <form id="sub"> 
+            <div class="todoList">
+            <input type="text" class="todoInput"> 
+            </div> 
+            <ul id="todo-list" class="todoListParent"></ul>
+            <button type="submit" class="buttonDiv"> <span class="buttonPlus">+</span> <p class="buttonAdd">Добавить</p> </button> 
+           </form>            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
